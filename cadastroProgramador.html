@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="css/theme.css" type="text/css">
+  <link rel="icon" href="imagem/icon.png">
+  <title>Cadastro Programador</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <div class="container">
+      <a class="navbar-brand ml-auto" href="#">
+        <i class="fa d-inline fa-lg fa-file-code-o p-2"></i>Programa Fácil</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar3SupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-center justify-content-center" id="navbar3SupportedContent">
+        <a class="ml-3 btn navbar-btn btn-primary" href="index.html">HOME</a>
+        <a class="ml-3 btn navbar-btn btn-primary" href="login.html">LOGIN</a>
+      </div>
+    </div>
+  </nav>
+  <div class="py-5" style="background-image: url('imagem/progBackgroud.jpg');background-size:cover;background-repeat:no-repeat;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="text-center display-3 bg-primary text-light text-uppercase">Cadastro Programador</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container text-uppercase">
+    <form method="POST" id="formProgramador" action="" class="text-justify border bg-light border-primary m-3 p-1">
+      <div class="form-group"> Nome:
+        <input type="text" id="nome" size="40" class="form-control"> </div>
+      <div class="form-group"> Telefone de contato:
+        <input type="text" id="telefone" size="15" class="form-control"> </div>
+      <div class="form-group"> Linkedin:
+        <input type="email" id="linkedin" size="60" class="form-control"> </div>
+      <div class="form-group"> Currículo:
+        <input type="file" id="curriculo"> </div>
+      <hr>
+      <h3>Conhecimentos:</h3>
+      <br>
+      <input type="checkbox" id="java"> Java
+      <br>
+      <input type="checkbox" id="web"> HTML, CSS, JavaScript
+      <br>
+      <input type="checkbox" id="php"> PHP
+      <br>
+      <input type="checkbox" id="android"> Desenvolvimento Android
+      <br>
+      <input type="checkbox" id="OPCAO5"> Outros
+      <input type="text" id="outros" size="40">
+      <br>
+      <hr>
+      <h3>Projetos:</h3>
+      <p>Informe abaixo os projetos que ja realizou como programador.</p>
+      <textarea id="projeto" cols="30" rows="10" class="form-control-lg w-100"></textarea>
+      <hr>
+      <div class="form-group"> E-mail para contato:
+        <input type="email" id="emailContato" size="60" class="form-control"> </div>
+      <div class="form-group"> Informe uma senha:
+        <input type="password" id="senha" size="60" class="form-control"> </div>
+      <div class="form-group"> Confirme a senha:
+        <input type="password" id="confirmaSenha" size="60" class="form-control"> </div>
+      <button type="submit" class="btn btn-primary" onclick="validarProgramador()">Salvar Cadastro</button>
+    </form>
+  </div>
+  <div class="bg-dark text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center align-self-center p-4">
+          <p class="mb-5">Centro Universitário Una - Campos Barro Preto
+            <br>Belo Horizonte - MG</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="js/validaCadastroProgramador.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+  <script src="js/validaCadastroProgramador.js"></script>
+
+</body>
+
+</html>

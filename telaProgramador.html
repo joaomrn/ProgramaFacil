@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="css/theme.css" type="text/css">
+  <link rel="icon" href="imagem/icon.png">
+  <title>Programador</title>
+</head>
+
+<body>
+    <div class="py-1 bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <a class="navbar-brand ml-auto text-light" href="#">
+            <i class="fa d-inline fa-lg fa-file-code-o p-2"></i>Programa Fácil</a>
+        </div>
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+          <a class="ml-3 btn navbar-btn btn-primary" href="index.html" >Sair</a>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="text-center bg-dark text-light">Bem Vindo #nomeProgramador</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <form method="POST" name="formProgramador" action="https://formspree.io/YOUREMAILHERE" class="text-justify border bg-light border-primary">
+            <div class="form-group"> Nome:
+              <input type="text" name="nome" size="40" class="form-control"> </div>
+            <div class="form-group"> Telefone de contato:
+              <input type="text" name="telefone" size="15" class="form-control"> </div>
+            <div class="form-group"> Linkedin:
+              <input type="email" name="linkedin" size="60" class="form-control"> </div>
+            <div class="form-group"> Currículo:
+              <input type="file" name="curriculo"> </div>
+            <hr>
+            <h3>Conhecimentos:</h3>
+            <br>
+            <input type="checkbox" name="OPCAO1"> Java
+            <br>
+            <input type="checkbox" name="OPCAO2"> HTML, CSS, JavaScript
+            <br>
+            <input type="checkbox" name="OPCAO3"> PHP
+            <br>
+            <input type="checkbox" name="OPCAO4"> Desenvolvimento Android
+            <br>
+            <input type="checkbox" name="OPCAO5"> Outros
+            <input type="text" name="outros" size="40">
+            <br>
+            <hr>
+            <h3>Projetos:</h3>
+            <p>Informe abaixo os projetos que ja realizou como programador.</p>
+            <textarea name="projetos" cols="30" rows="10" class="form-control-lg w-100"></textarea>
+            <hr>
+            <div class="form-group"> E-mail para contato:
+              <input type="email" name="emailContato" size="60" class="form-control"> </div>
+            <div class="form-group"> Informe uma senha:
+              <input type="password" name="senha" size="60" class="form-control"> </div>
+            <div class="form-group"> Confirme a senha:
+              <input type="password" name="confirmaSenha" size="60" class="form-control"> </div>
+          </form>
+          <a class="ml-3 btn navbar-btn btn-primary" href="cadastroProgramador.html">Editar</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bg-dark text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center align-self-center p-4">
+          <p class="mb-5">Centro Universitário Una - Campos Barro Preto
+            <br>Belo Horizonte - MG</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
